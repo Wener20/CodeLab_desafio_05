@@ -1,6 +1,7 @@
 body{
     background-image: url(Assents/bcg-mobile.svg);
     background-size: cover;
+    
 }
 
 .logo{
@@ -14,4 +15,3 @@ body{
     width: 101.49px;
     height: 48px;
 }
-
