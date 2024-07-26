@@ -1,17 +1,56 @@
 body{
     background-image: url(Assents/bcg-mobile.svg);
     background-size: cover;
-    
 }
 
-.logo{
-    display: flex;
+div.container {
+    padding: 0 22px;
+}
+
+ #logo {
+    height: 7.5vh;
+    display: block;
+    margin: 25px auto;
+}
+
+#ilustracao{
+    height: 35vh;
+    border: 1px solid white;
+    margin-top: 2px;
+    display: block;
+    margin: 0 auto;
+}
+
+.conatiner_grupo{
+    display: block;
+    border: 1px solid white;
+    height: 48vh;
+    margin: 0 auto;
+}
+
+.grupo_descricao{
+    color: #FFFFFF;
     width: 100%;
-    justify-content: center;
-    padding: 24px;
+    max-width: 100dvw;
 }
 
-.logo>img {
-    width: 101.49px;
-    height: 48px;
+.grupo_descricao>h4 {
+    width: 100%;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.79px;
+    margin-bottom: 8px;
 }
+
+.grupo_descricao>h1{
+    font-family: "Andada Pro";
+font-size: 40px;
+font-weight: 800;
+line-height: 44px;
+margin-bottom: 24px;
+}
+
+
+
+
