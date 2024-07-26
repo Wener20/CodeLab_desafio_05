@@ -1,4 +1,4 @@
-body{
+body {
     background-image: url(Assents/bcg-mobile.svg);
     background-size: cover;
 }
@@ -7,50 +7,85 @@ div.container {
     padding: 0 22px;
 }
 
- #logo {
-    height: 7.5vh;
+#logo {
+    height: 7.2vh;
     display: block;
     margin: 25px auto;
 }
 
-#ilustracao{
-    height: 35vh;
-    border: 1px solid white;
+#ilustracao {
+    height: 34vh;
     margin-top: 2px;
     display: block;
     margin: 0 auto;
 }
 
-.conatiner_grupo{
+.conatiner_grupo {
     display: block;
-    border: 1px solid white;
-    height: 48vh;
+    height: auto;
     margin: 0 auto;
 }
 
-.grupo_descricao{
+.grupo_descricao {
     color: #FFFFFF;
     width: 100%;
     max-width: 100dvw;
 }
 
 .grupo_descricao>h4 {
-    width: 100%;
     font-family: "Open Sans";
     font-size: 16px;
     font-weight: 700;
     line-height: 21.79px;
+    padding: 10px 0;
     margin-bottom: 8px;
 }
 
-.grupo_descricao>h1{
+.grupo_descricao>h1 {
     font-family: "Andada Pro";
-font-size: 40px;
-font-weight: 800;
-line-height: 44px;
-margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 44px;
+    margin-bottom: 24px;
 }
 
+.grupo_descricao>p {
+    font-family: "Archivo";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
 
+.botoes {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: auto;
+    margin-top: 24px;
+    gap: 25px;
+}
 
+button {
+    height: 52px;
+    text-align: center;
+    padding: 14px, 32px;
+    border-radius: 4px;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    cursor: pointer;
+}
 
+#assistir_agora{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F1A5B1;
+    gap: 8px;
+}
+
+#assista_o_trailer{
+    border: 2px solid #F1A5B1;
+    background: none;
+    color: #FFFFFF;
+}
