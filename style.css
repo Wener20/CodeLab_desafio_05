@@ -7,7 +7,7 @@ body {
   display: none;
 }
 
-div.container {
+.container {
   padding: 0 22px;
 }
 
@@ -100,7 +100,6 @@ button {
   }
 
   header {
-    border: 1px solid white;
     display: flex;
     height: 13dvh;
     align-items: center;
@@ -109,23 +108,43 @@ button {
     gap: 35px;
   }
 
-  #logo{
+  #logo {
     height: 8dvh;
     margin-left: 0;
   }
 
-  .social{
+  .social {
     display: flex;
     padding: 1px;
     gap: 24px;
   }
-  .social>img{
+
+  .social>img {
     width: 32px;
     height: 32px;
   }
 
-  #ilustracao{
+  #ilustracao {
     margin-top: 1rem;
   }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .conatiner_grupo{
+    width: 55vw;
+  }
+
+  .grupo_descricao>h1 {
+    width: 33vw;
+  }
+
+  .botoes{
+    width: 55vw;
+  }
+
 
 }
