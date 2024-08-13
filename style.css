@@ -17,9 +17,9 @@ body {
   margin: 0 auto;
 }
 
-.container {
+/* .container {
   border: 1px solid yellow;
-}
+} */
 
 #ilustracao {
   display: block;
@@ -37,9 +37,9 @@ body {
   display: flex;
   flex-direction: column;
   width: 69dvw;
+  margin-top: -1.5rem;
   color: #FFFFFF;
   gap: 1rem;
-  border: 1px solid white;
 }
 
 .grupo_descricao>h4 {
