@@ -1,15 +1,15 @@
-body{
+body {
   background-image: url(Assents/bcg-desktop.svg);
- background-size: cover;
- background-repeat: no-repeat;
- background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.social{
+.social {
   display: none;
 }
 
-#logo{
+#logo {
   border: 1px solid white;
   width: 30dvw;
   height: 10dvh;
@@ -17,13 +17,49 @@ body{
   margin: 0 auto;
 }
 
-.container{
+.container {
   border: 1px solid yellow;
 }
 
-#ilustracao{
+#ilustracao {
   display: block;
   margin: 0 auto;
   height: 38dvh;
 }
 
+.conatiner_grupo{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.grupo_descricao {
+  display: flex;
+  flex-direction: column;
+  width: 69dvw;
+  color: #FFFFFF;
+  gap: 1rem;
+  border: 1px solid white;
+}
+
+.grupo_descricao>h4 {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.79px;
+}
+
+.grupo_descricao>h1 {
+  width: 70dvw;
+  font-family: "Andada Pro";
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 44px;
+}
+
+.grupo_descricao>p {
+  font-family: "Archivo";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
