@@ -63,3 +63,30 @@ body {
   font-weight: 500;
   line-height: 24px;
 }
+
+.botoes {
+  display: grid;
+  width: 100%;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.botoes>button{
+  width: 69dvw;
+  height: 5dvh;
+  border-radius: 6px;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.09px;
+  text-align: center;
+}
+
+#assistir_agora{
+  display: flex;
+  background: #F1A5B1;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+}
