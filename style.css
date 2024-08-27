@@ -43,7 +43,7 @@ body {
   width: 69dvw;
   margin-top: -1.5rem;
   color: #FFFFFF;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .grupo_descricao>h4 {
@@ -72,13 +72,14 @@ body {
 .botoes {
   display: grid;
   width: 100%;
+  margin-top: 1rem;
   justify-content: center;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .botoes>button{
-  width: 69dvw;
-  height: 5dvh;
+  width: 85dvw;
+  height: 6dvh;
   border-radius: 6px;
   font-family: "Roboto";
   font-size: 18px;
@@ -93,5 +94,10 @@ body {
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+}
 
+#assista_o_trailer{
+  background: none;
+  border: 2px solid #F1A5B1;
+  color: #FFFFFF;
 }
