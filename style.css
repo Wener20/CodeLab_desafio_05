@@ -10,7 +10,6 @@ body {
 }
 
 #logo {
-  border: 1px solid white;
   width: 30dvw;
   height: 10dvh;
   display: block;
@@ -31,7 +30,7 @@ body {
   height: 35dvh;
 }
 
-.conatiner_grupo{
+.conatiner_grupo {
   display: grid;
   align-items: center;
   justify-content: center;
@@ -77,7 +76,7 @@ body {
   gap: 1.5rem;
 }
 
-.botoes>button{
+.botoes>button {
   width: 85dvw;
   height: 6dvh;
   border-radius: 6px;
@@ -88,7 +87,7 @@ body {
   text-align: center;
 }
 
-#assistir_agora{
+#assistir_agora {
   display: flex;
   background: #F1A5B1;
   justify-content: center;
@@ -96,8 +95,33 @@ body {
   gap: 0.5rem;
 }
 
-#assista_o_trailer{
+#assista_o_trailer {
   background: none;
   border: 2px solid #F1A5B1;
   color: #FFFFFF;
+}
+
+@media(min-width: 640px) {
+
+  header {
+    display: flex;
+    padding: 1rem 2rem;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid white;
+  }
+
+  .social {
+    display: flex;
+    height: 3.5vh;
+    gap: 2rem;
+  }
+
+  #logo {
+    margin-left: 0rem;
+    height: 9vh;
+  }
+
+
+
 }
