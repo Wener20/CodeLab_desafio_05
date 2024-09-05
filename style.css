@@ -53,7 +53,7 @@ body {
 }
 
 .grupo_descricao>h1 {
-  width: 70dvw;
+  width: 53dvw;
   font-family: "Andada Pro";
   font-size: 40px;
   font-weight: 800;
@@ -121,7 +121,23 @@ body {
     margin-left: 0rem;
     height: 9vh;
   }
+  .container{
+    justify-items: center;
+  }
 
+  .grupo_descricao{
+    width: 60vw;
+  }
 
+  .grupo_descricao>h1{
+    width: 31vw;
+  }
 
+  .grupo_descricao>p{
+    width: 60vw;
+  }
+
+  .botoes>button{
+    width: 60vw;
+  }
 }
