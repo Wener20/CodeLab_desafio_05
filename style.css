@@ -141,3 +141,18 @@ body {
     width: 60vw;
   }
 }
+
+@media (min-width: 1024px){
+  header{
+    padding: 2.5rem 14rem;
+  }
+
+  .social {
+    height: 4.5vh;
+  }
+
+  #logo {
+    margin-left: -7rem;
+    height: 9vh;
+  }
+}
